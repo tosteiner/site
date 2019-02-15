@@ -1,9 +1,14 @@
 ---
 title: "Foundations for Open Scholarship Strategy Development"
+output:
+  pdf_document: default
+  word_document: default
+  html_document:
+    df_print: paged
 layout: single
-toc: true
-toc_sticky: true
-toc_label: "Table of Contents <a href=\"#\" class=\"toc_toggle\" >[hide]</a>"
+toc: yes
+toc_label: Table of Contents <a href="#" class="toc_toggle" >[hide]</a>
+toc_sticky: yes
 ---
 
 <meta charset="utf-8">
@@ -12,11 +17,11 @@ toc_label: "Table of Contents <a href=\"#\" class=\"toc_toggle\" >[hide]</a>"
 - Version 1.1 -- June 06, 2018 - Created website.
 - Version 1.2 -- July 30, 2018 - Completed and published first draft: <a href="https://doi.org/10.5281/zenodo.1323437"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1323437.svg" alt="DOI"></a>
 
-- Version 2.1 -- Completed revised second draft (January 31, 2019, in prep)
+- Version 2.1 -- Completed revised second draft (January 31, 2019) and published as a preprint: [10.31222/osf.io/b4v8p](https://doi.org/10.31222/osf.io/b4v8p)
 
 Please note that a version of this strategy is also available in [Spanish](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/translations/spanish/index_es.md), [Indonesian](https://sainsterbuka.readthedocs.io/en/latest/?fbclid=IwAR2eJ0xOMQdkbIbGt639frHFv0PdwK44HesXAsWBgVNXiXU1oZQRdn7TPrA) and [German](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/translations/german/index-de.md).
 
-It is available in a range of formats, including: [R markdown](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_1/index.Rmd), [as an e-book](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_1/index.epub), [iPython notebook](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_1/index.ipynb), [markdown](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_1/index.md), [open document format text](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_1/index.odt), [PDF](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_1/index.pdf), [rich-text format](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_1/index.rtf), [LaTeX](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_1/index.tex), [plain text](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_1/index.txt), [XML](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_1/index.xml) and as [HTML](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_1/index_html.rar).
+It is available in a range of formats, including: [R markdown](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_2/index.Rmd), [as an e-book](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_2/index.epub), [iPython notebook](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_2/index.ipynb), [markdown](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_2/index.md), [open document format text](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_2/index.odt), [PDF](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_2/index.pdf), [rich-text format](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_2/index.rtf), [LaTeX](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_2/index.tex), [plain text](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_2/index.txt), [XML](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_2/index.xml) and as [HTML](https://github.com/Open-Scholarship-Strategy/indexed/blob/master/ver_2/index.html). It also exists as a dynamic website [here](https://open-scholarship-strategy.github.io/site/).
 
 **Drafting Committee**:
 
@@ -59,9 +64,8 @@ We also note that this strategy can only be based on information which we as a c
 
 ### Individual Level
 
-![Figure_1: Rainbow of open science practices](images/image_0.png)
-
-[Kramer, Bianca, & Bosman, Jeroen (2018, January). Rainbow of open science practices. Zenodo](https://doi.org/10.5281/zenodo.1147024). (CC BY) Note that the strategy below is divided into the 6 major categories (search, analysis, writing, publication, outreach, and assessment) where relevant.
+<p align="center"><img src="https://github.com/Open-Scholarship-Strategy/site/blob/master/images/image_0.png?raw=true" width="800" /></p>
+[Kramer, Bianca, & Bosman, Jeroen (2018, January). Rainbow of open science practices. Zenodo](https://doi.org/10.5281/zenodo.1147024). (CC BY) Note that the strategy below is divided into the 6 Major categories (search, analysis, writing, publication, outreach, and assessment) where relevant.
 
 #### Search
 
@@ -152,8 +156,7 @@ We also note that this strategy can only be based on information which we as a c
 
 * Do not judge work based on its impact factor or venue of publication. Consider establishing an [ImpactStory profile](http://impactstory.org/) to document your research impact more.
 
-
-![Figure_2: Open Educational Practice (OEP): collection of scenarios](images/image_1.png)
+<p align="center"><img src="https://github.com/Open-Scholarship-Strategy/site/blob/master/images/image_1.png?raw=true" width="800" /></p>
 
 [Steiner, Tobias (2018, February). Open Educational Practice (OEP): collection of scenarios. Zenodo](https://zenodo.org/record/1183805). (CC0)
 
@@ -237,7 +240,9 @@ Many of those at the individual level will still be relevant here too, and are d
 
 #### Publication
 
-* Map and coordinate when current subscription and big deal licenses will run out across research institutes, and let it happen. Where cancellations or terminations occur, ensure that there is adequate post-subscription access and support using existing sustainable and legal mechanisms (e.g., Inter-Library Loan).
+* Map and coordinate when current subscription and big deal licenses will run out across research institutes, and let it happen. Where cancellations or terminations occur, ensure that there is adequate post-subscription access and support using existing sustainable and legal mechanisms (e.g., Inter-Library Loan). 
+
+  * Make sure that there is sufficient co-ordination between libraries and relevant others beforehand, so that libraries can continue to provide outstanding services without interruption.
 
   * Explore routes for reinvesting money saved for library budgets.
 
@@ -563,7 +568,7 @@ These previous works have been, and remain to be, crucial for building a central
 
 To realize the full potential and vision of Open Scholarship, we believe that a document is needed that asks critical questions about the internal structure of Open Scholarship as a movement, and addresses strategic questions about how we, as a global movement, can identify concrete steps to achieving these goals. For those unfamiliar with the language of Open Scholarship, we refer them to the [Open Research Glossary](http://www.righttoresearch.org/resources/openresearchglossary/).
 
-![Figure_3: Five schools of thought in Open Scholarship](images/image_2.png)
+<p align="center"><img src="https://github.com/Open-Scholarship-Strategy/site/blob/master/images/image_2.png?raw=true" width="600" /></p>
 
 [Fecher and Frieseke (2013). Five schools of thought in Open Scholarship](https://www.fosteropenscience.eu/content/what-open-science-introduction). (CC BY-NC)
 
@@ -615,7 +620,7 @@ Generally, it is agreed upon that the combination of these practices and princip
 
 However, we acknowledge that Open Scholarship is not a simple construct to understand for many at the present, and often even has its own language. We fully acknowledge that such a barrier must be overcome in order to maximise participation and engagement with both the principles and the practices ([Masuzzo and Martens, 2017](https://doi.org/10.7287/peerj.preprints.2689v1)).
 
-![Figure_4: Principles of Open Scholarship](images/image_3.png)
+<p align="center"><img src="https://github.com/Open-Scholarship-Strategy/site/blob/master/images/image_3.png?raw=true" width="800" /></p>
 
 [Tony Ross-Hellauer (2017). Principles of Open Scholarship. Slideshare](https://www.slideshare.net/OpenAIRE_eu/peer-review-in-the-age-of-open-science). (CC BY).
 
@@ -632,7 +637,7 @@ Four major elements exist as preconditions to Open Scholarship adoption:
 
 4. **Incentives**: Motivations to engage with the practices.
 
-![Figure_5: Open Scholarship Taxonomy](images/image_4.png)
+<p align="center"><img src="https://github.com/Open-Scholarship-Strategy/site/blob/master/images/image_4.png?raw=true" width="800" /></p>
 
 Adapted from the [Foster Open Scholarship Taxonomy](https://www.fosteropenscience.eu/taxonomy/term/102) (CC BY 4.0). *Please note that this is a non-exhaustive taxonomy of all possible aspects of Open Science & Scholarship.*
 
@@ -665,6 +670,11 @@ On the other hand, there is a need to ensure that strategies are joined-up so th
 
 * At the present there are few preprints from the [pharmaceutical industry](https://openpharma.blog/2017/08/14/when-will-preprints-take-off-in-medicine/), and none covering primary clinical data. There are at present considerable barriers to preprints of industry work, including the possibility of material that has not yet been peer-reviewed being seen as promotional, and the possibility of readers changing clinical practice based on material that has not yet been peer-reviewed, however well labelled a preprint is.
 
+* The pharmaceutical industry, which funds [approximately half of all medical research](https://jamanetwork.com/journals/jama/fullarticle/185198), is becoming aware of the potential for many aspects of open scholarship to improve the transparency, accessibility and speed of reporting its research. In this highly regulated, compliance-focused industry, which presents a substantial source of revenue to publishers, there are additional barriers to change beyond those discussed in the academic community. The benefits and barriers to new ways of working are now [being examined](https://openpharma.blog/) and changes are taking place.
+
+* Most notably, [one pharma company](https://www.shire.com/en/newsroom/2018/january/xajhds) has mandated that all its research should be published open access from January 2018, although not necessarily CC BY, and a [second pharma company](https://www.ipsen.com/ipsen-commits-to-making-all-its-published-scientific-research-freely-accessible-to-everyone/) has followed suit in January 2019. One other [has mandated that all their internal research staff](https://doi.org/10.21305/ISMPPEU2018.001) should use ORCID when publishing their work. 
+
+* There are few preprints on [bioRxiv from the pharmaceutical industry](https://openpharma.blog/2018/05/31/what-do-preprints-mean-for-medical-publishing/), although uptake is increasing in line with growth in preprinting of non-commercial medical research, and very few covering primary clinical data. There are at present considerable barriers to preprints of industry-funded work, including the possibility of material that has not yet been peer-reviewed being seen as promotional, and the possibility of readers changing clinical practice based on material that has not yet been peer-reviewed, however well labelled a preprint is. Issues such as these have delayed the launch of [MedRxiv](http://yoda.yale.edu/medrxiv), a preprint server aimed specifically at medical research.
 
 ### 4.2.3 Stakeholder specificities
 
@@ -967,7 +977,7 @@ This section of the strategy will describe some of the strengths of the Open Sch
 
  * The global scholarly community is vast, covering every continent, and embedded within strong research and academic institutes. The 'Open' movement goes beyond just scholarship, and is related to wider fields such as Open Culture, Open Government, Open Source, and Open Society. Therefore, the potential collective impact that the movement can have is enormous, with ramifications for global society; for example, influencing the [UN Sustainable Development Goals](http://www.unfoundation.org/features/globalgoals/the-global-goals.html).
 
-![Figure_6: United Nations Sustainable Development Goals](images/UN_sustainable.png)
+<p align="center"><img src="https://github.com/Open-Scholarship-Strategy/site/blob/master/images/UN_sustainable.png?raw=true" width="800" /></p>
 
  * Open Scholarship activism as part of a broader Open movement is benefiting from cross-collaborations with advocates from across different sectors. For example, now Open Scholarship is often seen as a gateway to Open Education, but has policies strengthened by experiences from the Open Source movement.
 
@@ -1108,8 +1118,8 @@ From these examples, it is clear that there is a general lack of synthesized and
 **Rate of growth**
 
  * All current evidence indicates that Open Scholarship momentum is building, in terms of more widespread understanding of issues and adoption of practices (e.g., in terms of number of institutional Open Access policies, as indicated by [ROARMAP](https://roarmap.eprints.org/dataviz2.html)).
-
-![Figure_7: Overview: Policies by continent and region](images/Policies.png)
+ 
+ <p align="center"><img src="https://github.com/Open-Scholarship-Strategy/site/blob/master/images/Policies.png?raw=true" width="800" /></p>
 
   * But such diffusion is often slow and granular, and beset by frictions. Further experimentation should be encouraged to demonstrate the applicability of larger-scale adoption of practices and to increase the rate of growth, and ultimate impact, of Open Scholarship.
 
@@ -1251,12 +1261,11 @@ Therefore, future communication efforts must focus on open practices as not bein
 
 # 11. Conclusions <a name="Conclusions"></a>
 
-We are in the midst of a rapid evolution in tools, services, concepts and corresponding moves by key stakeholders in the global realm of Open Scholarship. However, we feel that there has been little strategic co-ordination in the implementation of the various aspects of Open Scholarship, prompting the need for this document. Within, we have compiled a comprehensive list of strategic steps that can be taken at different levels to move towards an Open Scholarship system. We provide substantial discussion into the pros and cons of these steps, the potential threats, the rationale, and existing strengths and existing initiatives helping to realise this. We believe that co-ordinated implementation of this strategy will be necessary to ensure that we do not to have to fall back to solutions that would otherwise potentially negatively impact and stifle the further development of open research practices on a global level.
+We are in the midst of a rapid, global evolution in tools, services and concepts in Open Scholarship; however, there has been little strategic co-ordination in the implementation of the various aspects of Open Scholarship. Simply channelling more time, effort, and funds into maintaining the existing system, with perverse incentives and skewed power dynamics, is clearly no longer sustainable for global research. 
 
-In short: Simply channeling more time, effort, and funds into maintaining the existing system, with perverse incentives and skewed power dynamics, is clearly no longer sustainable for global research. This document seeks to provide a comprehensive and strategic solution to this problem. By breaking down Open Scholarship into its constituents, it enables communities to take small steps as a collective towards a more open culture, and with relatively little effort.
+This document seeks to provide a comprehensive and strategic solution to this problem. By breaking down Open Scholarship into its constituent aspects, it encourages communities to take small steps as a collective towards a more open culture, and with relatively little effort. We provide substantial discussion into the pros and cons of these steps, rationale and potential threats, and existing strengths and enabling initiatives. We believe that co-ordinated implementation of this strategy will be necessary to ensure that we do not to fall back to solutions that would could stifle the further development of open research practices on a global level.
 
-In order not to re-live the lock-in of research by yet another business plan that only pays lip service to the guiding values, principles and practices of Open Scholarship, this time around, academia cannot afford to lose sight on the variety of aspects that Open Scholarship contains. Primarily, the re-centering of scholarly practices on fundamental open principles that – as is outlined in more detailed form throughout this strategy – comprise not only free access to, but also the possibility to freely participate in and re-use research output in all its forms. We see this freedom as essential to any future of Open Scholarship, and that violation of these freedoms also violates the principles of Open Scholarship.
-
+To avoid locking the research community into yet another business plan that only pays lip service to the guiding values, principles and practices of Open Scholarship, academia needs centre its scholarly practices on fundamental open principles, most importantly free access to, but also the possibility to freely participate in and re-use research output in all its forms. We see these freedoms as essential to any future of Open Scholarship.
 
 **Important Note** The latest draft of project is currently in development and available for contributions on [GitHub](https://github.com/Open-Scholarship-Strategy/site). Please see the [README](https://github.com/Open-Scholarship-Strategy/site/blob/master/README.md) file for more detail, and the main content file to edit is [here](https://github.com/Open-Scholarship-Strategy/site/blob/master/index.md). Edits to this file, if approved, will automatically update into this webpage.
 
